@@ -1,0 +1,50 @@
+{
+  "countries" : [
+         {
+        "id": 1,
+        "name": "Sagrada Família,Barcelona",
+        "imageUrl": "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/2023/07/wallpaperaccess.com_-1920x1200.jpg",
+        "description": "The Sagrada Família is Antoni Gaudí's best-known work and has become an undisputed symbol of Barcelona."
+    },
+     {   
+        "id": 2,
+        "name": "Banana Beach, Thailand",
+        "imageUrl": "https://storage.googleapis.com/tagthai-prd-content/Phuket_best_hidden_gem_beach_banana_beach_863980a390/Phuket_best_hidden_gem_beach_banana_beach_863980a390.jpeg",
+        "description": "Banana Beach in Phuket is a secluded and picturesque beach known for its crystal-clear waters, white sand, and tranquil atmosphere. "
+    }
+   
+  ]
+  ,
+  "temples" : [
+    {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://cdn.pixabay.com/photo/2018/10/26/05/42/ancient-3773933_1280.jpg",
+        "description": "The world's largest religious monument, a stunning example of Khmer architecture."
+    },
+    {   
+        "id": 2,
+        "name": "Golden Temple, India",
+        "imageUrl": "https://cdn.pixabay.com/photo/2014/07/20/16/08/golden-temple-397886_1280.jpg",
+        "description": "Golden Temple, India. The Golden Temple, also known as Harmandir Sahib, stands as one of the most unique temples in the world. "
+    }
+  ],
+
+  "beaches" : [
+    {
+        "id": 1,
+        "name": "Elafonissi Beach,Greece)",
+        "imageUrl": "https://www.greeceholidays.info/wp-content/uploads/sites/128/crete-elafonissi.jpg",
+        "description": "Tnown for its pink sand and crystal-clear turquoise waters, making it a popular destination."
+    },
+    {
+        "id": 2,
+        "name": "Kaanapali Beach, USA",
+        "imageUrl": "https://www.lovebigisland.com/wp-content/uploads/kaanapali-resort-area-800x509.jpg",
+        "description": "Known for its soft white sand, warm water, and a boardwalk for resort hopping."
+    }
+    
+  ]
+  
+}
+

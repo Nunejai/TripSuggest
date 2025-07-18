@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=landscape_2" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+    <title>TripSuggest</title>
+</head>
+<body>
+    <!-- Nav bar --> 
+     <nav class="nav">
+        <div class="logo">
+            <span class="material-symbols-outlined">landscape_2</span>
+            <a href="index.html" id="logoname">TripSuggest</a>
+        </div>
+        <div class="navbar-1">
+            <ul><li><a href="./index.html" id="home">Home</a></li>
+                <li><a href="./about.html" id="about">About Us</a></li>
+                <li><a href="./contact.html" id="home">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input id="searchInput" class="searchinput" placeholder="Enter a destination or keyword" type="text">
+            <img src="./assest/icons/search_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="search logo">
+            <button onclick="searchKeyword()">Search</button>
+            <button onclick="clearResults()">Clear</button>
+        </div>
+     </nav>
+
+     <div id="results"></div>
+
+     <!-- MainSection -->
+     <div class="maincontent">
+        <p class="header-1"> Explore <br>Dream<br></p>
+        <p class="header-2"> Destination</p>
+        <p class="content">It encourages exploration of unfamiliar<br>
+            territories,embracing diverse culture and<br>
+            landscapes,while pursuing the desired<br> 
+            destication that captivates the heart and<br>
+            ignites a sense of wonder.</p>
+    </div>
+    
+    <script src="./travel_recommendation.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "TikTok Sans", sans-serif;
+}
+
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2025/03/16/06/16/mountains-9473304_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+  
+}
+
+nav{
+    background-color:#263238;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a{
+    text-decoration: none; 
+    color: #fff;
+    font-weight: 30px;   
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    
+}
+
+
+.search{ 
+    background-color:white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#search-1{
+    border-color: #263238;
+    box-shadow: none;
+    border-width: 1.5px;
+}
+
+
+button{
+    border-radius: 6px;
+    border-width: thin;
+    padding: 3.5px 6px;
+    background-color: #008CBA;
+    color:white;
+    border-color: white;
+}
+
+.logo{
+    color: #ece4d4;
+}
+
+#logoname{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+input[type="text"]{
+    width: 250px;
+    padding: 4px;
+}
+
+.maincontent{
+    padding: 10rem 10rem;
+}
+
+.header-1{
+    font-size: 5rem;
+    font-weight: 900;
+    color:black;
+}
+
+.header-2{
+    font-size: 5rem;
+    font-weight: 900;
+    color:white;
+}
+
+.content{
+    font-size: larger;
+    font-weight: 400;
+    color:#ece4d4;
+}
+
+.aboutusheader{
+    font-size: 3rem;
+    font-weight: 600;
+    color:white;
+    padding: 5rem 10rem 2rem;
+}
+
+.aboutustxt {
+padding: 2rem 10rem;
+font-weight: 400;
+color: #ece4d4;
+}
+
+
+.team{
+    padding: 5rem 10rem ;
+}
+
+
+.teamheader{
+    font-size: 3rem;
+    font-weight: 600;
+    color:white;
+    padding-bottom: 5rem;
+   
+}
+
+.member{
+background-color: #ece4d4;
+display: inline-block;
+justify-content: center;
+align-items: center;
+padding: 2rem 3rem;
+text-align: center;
+}
+
+.name{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.contact{
+    text-align: left;
+    padding: 2rem 10rem 2rem;
+}
+
+.contactustittle{
+    font-size: 3rem;
+    font-weight: 600;
+    color:white;
+    padding: 2rem 10rem 2rem;
+}
+
+.form{
+    font-size: 1rem;
+    font-weight: 600;
+    color:#263238;
+}
+
+#contactForm input,
+    #contactForm textarea {
+      width: 60%;
+      margin-bottom: 15px;
+      padding: 8px;
+    }
+    #contactForm button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    #results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  padding: 15px;
+  width: 300px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
