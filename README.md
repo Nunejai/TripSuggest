@@ -2,7 +2,7 @@
 This project is the final project, which is a part of the JavaScript Programming Essentials Course on Coursera.
 
 #There are nine tasks available for this final project.
-1.[GitHub repository public URL] 
+-[GitHub repository public URL] 
 2.[The website contains a Home page, About Us page, and Contact Us page] 
 3.[Navigation bar] 
 4.[An introduction for the Home Page] 
